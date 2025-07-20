@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body><div class="signin" id="formContainer">
+    <div class="s-logo">
+</div>
+<div class="form"  >
+    <h4>Sign in or create account</h4>
+    <p> Enter mobile number</p>
+    <input type="value"  id="input" >
+    <button class="continue">Continue</button>
+    <p>By continuning, you agree to Amazon's <a href="#">conditions of Use</a> and <a href="#">Privacy Notices</a></p>
+    <hr>
+    <h3>Buying for work?</h3>
+    <a href="#" class="a">a free bussiness account</a> 
+</div>
+</div>
+<script>
+  const continueBtn = document.querySelector(".continue");
+
+  continueBtn.addEventListener("click", () => {
+    const inputValue = document.getElementById("input").value.trim();
+    const formContainer = document.querySelector("#formContainer");
+
+    if (inputValue === "") {
+      alert("Please enter your mobile number.");
+    } else {
+      formContainer.innerHTML = `
+        <h2 class="success-message">You signed in successfully!</h2>
+        <p class="success-p">Welcome to Amazon.in 🎉</p>
+      `;
+    }
+  });
+</script>
+</body>
+</html>

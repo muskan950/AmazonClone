@@ -1,0 +1,65 @@
+.s-logo{
+    width: 150px;
+  height: 70px;
+  background: url("slogo.jpg");
+  background-size: cover;
+  margin-left: 350px;
+}
+h4{
+    margin-left: 23px;
+}
+p{
+    margin-left: 23px;
+}
+pre{
+    margin-left: 23px;
+}
+h3{
+    margin-left: 23px;
+}
+hr{
+    background-color: lightgray;
+}
+a{
+    color:#558fda;
+}
+.a{
+    color:#558fda;
+    margin-left: 23px;
+}
+.form{
+    height: 330px;
+  width: 300px;
+  border: solid lightgray 0.2px;
+  margin-left: 250px;
+  margin-top: 4px;
+  border-radius: 10px;
+}
+
+#input{
+    width: 250px;
+  border: 1px solid;
+  height: 23px;
+  margin-left: 20px
+}
+.continue{
+    background-color:#f5d93f;
+  border: none;
+  border-radius: 30px;
+  width: 220px;
+  height: 28px;
+  margin-left: 23px;
+  margin-top: 15px;
+}
+ .success-message {
+     color: green;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 245px;
+    }
+.success-p{
+     margin-left: 243px;
+  font-size: 30px;
+}
